@@ -1,0 +1,406 @@
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+.style
+{
+  width: 408px;
+  height: 264px;
+  top: 122px;
+  left: 33px;
+ background-color:#3D405B
+
+
+}
+.div-8 {
+  gap: 10px;
+  display: flex;
+  margin: 20px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 33%;
+  margin-left: 0px;
+  border-radius:10px;
+}
+.div-9 {
+  display: flex;
+  flex-direction: column;
+  fill: #8a74f9;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  aspect-ratio: 1.55;
+  flex-grow: 1;
+  justify-content: center;
+  border-radius:10px;
+
+}
+.styleline{
+  width: 100%;
+  background-color: aliceblue;
+  position: absolute;
+  top: 56%;
+  z-index: 1000;
+  border-color: rgb(132, 112, 236);
+  border-width: 1px;
+border-style: dashed;
+}
+.inputcard{
+  border: none;
+}
+.img-3 {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.div-10 {
+  disply: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  aspect-ratio: 1.55;
+  width: 100%;
+  padding: 21px 0;
+}
+.img-4 {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.div-11 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  padding: 0 8px;
+}
+.div-12 {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 13px;
+}
+.img-5 {
+  aspect-ratio: 1.08;
+  object-fit: auto;
+  object-position: center;
+  width: 70px;
+}
+.div-13 {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0%;
+  flex-direction: column;
+}
+.div-14 {
+  color: #fff;
+  text-align: center;
+  align-self: center;
+  font: 14px Neo Sans Arabic, sans-serif;
+}
+.div-15 {
+  border-radius: 8.316px;
+  border: 0.832px dashed #ddd;
+  background-color: #fff;
+  display: flex;
+  margin-top: 22px;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 13px;
+  color: #1c1c28;
+  white-space: nowrap;
+  line-height: 179%;
+  padding: 14px 23px;
+}
+.img-6 {
+  aspect-ratio: 0.85;
+  object-fit: auto;
+  object-position: center;
+  width: 12px;
+}
+.div-16 {
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter, sans-serif;
+  flex-grow: 1;
+  flex-basis: auto;
+}
+.div-17 {
+  color: #fff;
+  align-self: center;
+  margin-top: 14px;
+  white-space: nowrap;
+  font: 12px Montserrat, sans-serif;
+}
+.img-7 {
+  aspect-ratio: 100;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+  stroke-width: 2.495px;
+  stroke: rgba(255, 255, 255, 0.4);
+  margin: 15px 12px 0 0;
+}
+.div-18 {
+  position: relative;
+  align-self: center;
+  display: flex;
+  margin-top: 14px;
+  width: 348px;
+  max-width: 100%;
+  justify-content: space-between;
+  gap: 20px;
+  color: #fff;
+}
+.img-8 {
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  width: 82px;
+}
+.div-19 {
+  align-self: end;
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+}
+.div-20 {
+  align-self: end;
+  font: 400 14px Neo Sans Arabic, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+.div-21 {
+  display: flex;
+  margin-top: 8px;
+  justify-content: space-between;
+  gap: 17px;
+}
+.div-22 {
+  leading-trim: both;
+  text-edge: cap;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  aspect-ratio: 2.92;
+  justify-content: center;
+  white-space: nowrap;
+  padding: 6px 20px 6px 6px;
+  font: 400 12px Neo Sans Arabic, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+.div-23 {
+  margin: auto 0;
+  font: 500 18px Montserrat, sans-serif;
+}
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 60%;
+  margin-left: 20px;
+  text-align: center;
+}
+.div-24 {
+  border-radius: 8px;
+  border: 0.807px solid #ebebeb;
+  background-color: #fff;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  width: 100%;
+  padding: 17px 22px;
+}
+@media (max-width: 991px) {
+  .div-24 {
+    max-width: 100%;
+    margin-top: 24px;
+    padding: 0 20px;
+  }
+}
+.div-25 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 14px;
+  white-space: nowrap;
+  text-align: center;
+  padding: 0 2px;
+}
+/* @media (max-width: 991px) {
+  .div-25 {
+    max-width: 100%;
+    flex-wrap: wrap;
+    white-space: initial;
+  }
+} */
+.img-9 {
+  aspect-ratio: 2.27;
+  object-fit: auto;
+  object-position: center;
+  width: 68px;
+  align-self: start;
+}
+.div-26 {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
+  .div-26 {
+    white-space: initial;
+  }
+}
+.div-27 {
+  color: #1c1c28;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Neo Sans Arabic, -apple-system, Roboto, Helvetica,
+    sans-serif;
+  font-weight: 400;
+  line-height: 92%;
+  align-self: end;
+}
+.div-28 {
+  display: flex;
+  margin-top: 6px;
+  justify-content: space-between;
+  gap: 9px;
+  color: var(--Font-style-Light, #99a1b7);
+  font-weight: 500;
+  line-height: 13px;
+}
+.img-10 {
+  aspect-ratio: 2;
+  object-fit: auto;
+  object-position: center;
+  width: 8px;
+  stroke-width: 1.21px;
+  stroke: #92a1ad;
+  margin: auto 0;
+}
+.div-29 {
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter, sans-serif;
+  flex-grow: 1;
+}
+.div-30 {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  min-height: 151px;
+  margin-top: 11px;
+  padding: 50px 0 30px;
+}
+.img-11 {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.div-31 {
+  position: relative;
+  background-color: #e5e5ef;
+  height: 1px;
+}
+.div-32 {
+  position: relative;
+  background-color: #e5e5ef;
+  margin-top: 33px;
+  height: 1px;
+}
+.div-33 {
+  position: relative;
+  background-color: #e5e5ef;
+  margin-top: 33px;
+  height: 1px;
+}
+.div-34 {
+  background-color: #e5e5ef;
+  margin-top: 7px;
+  height: 1px;
+}
+.div-35 {
+  display: flex;
+  margin-top: 9px;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 12px;
+  color: #9291a5;
+  font-weight: 500;
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: -0.24px;
+  line-height: 134%;
+}
+.div-36 {
+  font-family: Neo Sans Arabic, -apple-system, Roboto, Helvetica,
+    sans-serif;
+  flex-grow: 1;
+}
+.div-37 {
+  font-family: Neo Sans Arabic, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+.div-38 {
+  font-family: Neo Sans Arabic, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+.div-39 {
+  font-family: Neo Sans Arabic, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+.div-40 {
+  font-family: Neo Sans Arabic, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+.div-41 {
+  font-family: Neo Sans Arabic, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+.div-42 {
+  font-family: Neo Sans Arabic, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+.div-43 {
+  font-family: Neo Sans Arabic, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+.div-44 {
+  font-family: Neo Sans Arabic, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+.div-45 {
+  font-family: Neo Sans Arabic, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+.div-46 {
+  font-family: Neo Sans Arabic, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+.div-47 {
+  font-family: Neo Sans Arabic, -apple-system, Roboto, Helvetica,
+    sans-serif;
+  flex-grow: 1;
+}
+.div-48 {
+  display: flex;
+  margin-top: 24px;
+  width: 100%;
+  max-width: 1272px;
+  align-items: start;
+  justify-content: space-between;
+  gap: 20px;
+  font-weight: 400;
+  white-space: nowrap;
+  padding: 0 1px;
+}

@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+@font-face {
+  font-family: 'Neo Sans Arabic, Inter';
+  src: url("./assets/fonts/alfont_com_NeoSansArabic.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body
+{
+  font-family: 'Neo Sans Arabic', sans-serif;
+
+  background-color: rgb(243, 245, 247);
+}

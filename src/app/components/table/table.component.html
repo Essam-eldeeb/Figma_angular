@@ -1,0 +1,41 @@
+<p-table
+  class="table center"
+  [value]="customers"
+  [paginator]="true"
+  [rows]="7"
+  [showCurrentPageReport]="true"
+  [tableStyle]="{ 'min-width': '20rem' }"
+  currentPageReportTemplate=""
+>
+  <ng-template class="table" pTemplate="header">
+    <tr class="table1">
+      <td style="width: 12.5%">التذكرة</td>
+      <td style="width: 12.5%">عدد مرات الشراء</td>
+      <td style="width: 12.5%">عدد الاشخاص</td>
+      <td style="width: 12.5%">السينمات</td>
+      <td style="width: 12.5%">قيمه التذكرة  <p-sortIcon field="code"></p-sortIcon></td>
+      <td style="width: 12.5%">رقم التذكرة</td>
+      <td style="width: 12.5%">المستخدم</td>
+      <td style="width: 12.5%">#</td>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-customer>
+    <tr class="table3">
+      <td>{{ customer.tickt }}</td>
+      <td>{{ customer.countOfBuy }}</td>
+      <td>{{ customer.countOfperson }}</td>
+      <td>{{ customer.cinema }}</td>
+      <td>{{ customer.costTicket }}</td>
+      <td>{{ customer.numberticket }}</td>
+      <td>
+        {{ customer.user }}
+        <img class="imgstyle" src="../../../assets/تنزيل.jpeg" alt="" />
+      </td>
+      <td>{{ customer.id }}</td>
+    </tr>
+  </ng-template>
+  <!-- <ng-template pTemplate="paginatorleft">
+  </ng-template>
+  <ng-template pTemplate="paginatorright">
+  </ng-template> -->
+</p-table>

@@ -1,7 +1,6 @@
 import { Component, ViewChild } from "@angular/core";
 
 import {
-  ChartComponent,
   ApexAxisChartSeries,
   ApexChart,
   ApexXAxis,
@@ -25,11 +24,11 @@ export type ChartOptions = {
 };
 
 @Component({
-  selector: "app-root",
-  templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.css"]
+  selector: 'app-chart',
+  templateUrl: './chart.component.html',
+  styleUrl: './chart.component.css'
 })
-export class AppComponent {
+export class ChartComponent {
   @ViewChild("chart") chart!: ChartComponent;
   public chartOptions: Partial<ChartOptions>;
 
@@ -37,27 +36,28 @@ export class AppComponent {
     this.chartOptions = {
       series: [
         {
-          name: "My-series",
-          data: [10, 41, 35, 51, 49, 62, 69, 91, 148],
+          name: "استخدام",
+          data: [10, 41, 35, 51,100, 62, 69, 91, 10],
         }
       ],
       chart: {
-        height: 350,
+        height: 300,
         type: "area",
         toolbar: {
           show: false,
         },
       },
       title: {
-        text: "عصتم الدييب",
+        text: "إحصائيات إستخدام القسيه",
         align: 'right'
       },
       subtitle: {
-        text: "عصتم الدييب",
+        text:"05 يوليو , 2023 - 05 أغسطس , 2023"
+        ,
         align: 'right'
       },
       xaxis: {
-        categories: ["Jan", "Feb",  "Mar",  "Apr",  "May",  "Jun",  "Jul",  "Aug", "Sep"]
+        categories: ["ديسمبر","نوفمبر ",'اكتوبر',"سبتمبر", "اغسطس",  "يوليو ",  "يونيو",  "مايو",  "ابريل",  "مارس",  "فيراير", "يناير "]
       },
       yaxis: {
         show: false
@@ -93,4 +93,5 @@ export class AppComponent {
 
     };
   }
+
 }
